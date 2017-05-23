@@ -1,12 +1,12 @@
-# CentOS7
-docker images of centos7
+# nginx
+docker images of nginx base on centos7
 
 ## Supported Tags
-latest (https://github.com/minchangchen/DockerRepos/blob/master/CentOS7/Dockerfile)
+latest
 
 
 ## What's in this image?
-This image contains the latest version of CentOS, with the latest version of openssl/gcc/ifconfig/wget.
+This image contains the version 1.10.3 of nginx, with http_ssl_module
 
 
 ## Supported Docker Versions
