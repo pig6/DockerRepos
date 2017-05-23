@@ -1,5 +1,5 @@
-FROM greatbsky/crontab
-MAINTAINER architect.bian
+FROM minchangchen/crontab
+MAINTAINER minchangchen
 LABEL name="xtramariadb" license="MIT" build-date="20170303"
 
 ENV VERSION 1.0.0
