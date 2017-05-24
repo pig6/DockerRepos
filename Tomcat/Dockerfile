@@ -11,7 +11,7 @@ COPY catalina.sh $TOMCAT_PATH/bin/catalina.sh
 COPY server.xml $TOMCAT_PATH/conf/server.xml
 COPY context.xml $TOMCAT_PATH/conf/context.xml
 
-RUN chmod +x $TOMCAT_PATH/bin/catalina.sh
+RUN chmod -R 777 $TOMCAT_PATH
 
 WORKDIR $TOMCAT_PATH
 
